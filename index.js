@@ -5,7 +5,8 @@ var wd = process.argv[2];
 var escapeCommasAndTabs = function(text) {
   //todo global escape of commans
   //todo global escape of tabs
-  return text.replace(/"/g, "'");
+  //console.log(text);
+  return text.toString().replace(/"/g, "'");
 };
 
 var loadTitles = function(_file) {
