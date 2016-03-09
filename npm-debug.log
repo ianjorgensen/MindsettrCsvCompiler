@@ -1,0 +1,92 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node', '/usr/local/bin/npm', 'install', 'blob', '--save' ]
+2 info using npm@1.4.28
+3 info using node@v0.10.32
+4 warn package.json MindsettrCSVCompiler@1.0.0 No description
+5 warn package.json MindsettrCSVCompiler@1.0.0 No repository field.
+6 warn package.json MindsettrCSVCompiler@1.0.0 No README data
+7 verbose readDependencies using package.json deps
+8 verbose cache add [ 'blob', null ]
+9 verbose cache add name=undefined spec="blob" args=["blob",null]
+10 verbose parsed url { protocol: null,
+10 verbose parsed url   slashes: null,
+10 verbose parsed url   auth: null,
+10 verbose parsed url   host: null,
+10 verbose parsed url   port: null,
+10 verbose parsed url   hostname: null,
+10 verbose parsed url   hash: null,
+10 verbose parsed url   search: null,
+10 verbose parsed url   query: null,
+10 verbose parsed url   pathname: 'blob',
+10 verbose parsed url   path: 'blob',
+10 verbose parsed url   href: 'blob' }
+11 silly lockFile 0fd0bcfb-blob blob
+12 verbose lock blob /Users/ian/.npm/0fd0bcfb-blob.lock
+13 silly lockFile 0fd0bcfb-blob blob
+14 silly lockFile 0fd0bcfb-blob blob
+15 verbose addNamed [ 'blob', '' ]
+16 verbose addNamed [ null, '*' ]
+17 silly lockFile bdd72ec8-blob blob@
+18 verbose lock blob@ /Users/ian/.npm/bdd72ec8-blob.lock
+19 silly addNameRange { name: 'blob', range: '*', hasData: false }
+20 verbose request where is /blob
+21 verbose request registry https://registry.npmjs.org/
+22 verbose request id 790aa012edfb1999
+23 verbose url raw /blob
+24 verbose url resolving [ 'https://registry.npmjs.org/', './blob' ]
+25 verbose url resolved https://registry.npmjs.org/blob
+26 verbose request where is https://registry.npmjs.org/blob
+27 info trying registry request attempt 1 at 12:54:24
+28 verbose etag "12UEL1ZGWYGH3PGFQOKTIHUMJ"
+29 http GET https://registry.npmjs.org/blob
+30 http 304 https://registry.npmjs.org/blob
+31 silly registry.get cb [ 304,
+31 silly registry.get   { date: 'Wed, 09 Mar 2016 11:54:25 GMT',
+31 silly registry.get     via: '1.1 varnish',
+31 silly registry.get     'cache-control': 'max-age=300',
+31 silly registry.get     etag: '"12UEL1ZGWYGH3PGFQOKTIHUMJ"',
+31 silly registry.get     age: '128',
+31 silly registry.get     connection: 'keep-alive',
+31 silly registry.get     'x-served-by': 'cache-fra1233-FRA',
+31 silly registry.get     'x-cache': 'HIT',
+31 silly registry.get     'x-cache-hits': '6',
+31 silly registry.get     'x-timer': 'S1457524465.533172,VS0,VE0',
+31 silly registry.get     vary: 'Accept' } ]
+32 verbose etag https://registry.npmjs.org/blob from cache
+33 silly addNameRange number 2 { name: 'blob', range: '*', hasData: true }
+34 silly addNameRange versions [ 'blob', [ '0.0.1', '0.0.2', '0.0.3', '0.0.4' ] ]
+35 verbose addNamed [ 'blob', '0.0.4' ]
+36 verbose addNamed [ '0.0.4', '0.0.4' ]
+37 silly lockFile 9701fdfd-blob-0-0-4 blob@0.0.4
+38 verbose lock blob@0.0.4 /Users/ian/.npm/9701fdfd-blob-0-0-4.lock
+39 silly lockFile 2a4f8a2a-ry-npmjs-org-blob-blob-0-0-4-tgz https://registry.npmjs.org/blob/-/blob-0.0.4.tgz
+40 verbose lock https://registry.npmjs.org/blob/-/blob-0.0.4.tgz /Users/ian/.npm/2a4f8a2a-ry-npmjs-org-blob-blob-0-0-4-tgz.lock
+41 verbose addRemoteTarball [ 'https://registry.npmjs.org/blob/-/blob-0.0.4.tgz',
+41 verbose addRemoteTarball   'bcf13052ca54463f30f9fc7e95b9a47630a94921' ]
+42 info retry fetch attempt 1 at 12:54:25
+43 verbose fetch to= /var/folders/tv/99_9yfgx6sz2r_ct8zf4xjmw0000gn/T/npm-15030-itdGjd3J/registry.npmjs.org/blob/-/blob-0.0.4.tgz
+44 http GET https://registry.npmjs.org/blob/-/blob-0.0.4.tgz
+45 http 200 https://registry.npmjs.org/blob/-/blob-0.0.4.tgz
+46 silly lockFile 2a4f8a2a-ry-npmjs-org-blob-blob-0-0-4-tgz https://registry.npmjs.org/blob/-/blob-0.0.4.tgz
+47 silly lockFile 2a4f8a2a-ry-npmjs-org-blob-blob-0-0-4-tgz https://registry.npmjs.org/blob/-/blob-0.0.4.tgz
+48 silly lockFile 9701fdfd-blob-0-0-4 blob@0.0.4
+49 silly lockFile 9701fdfd-blob-0-0-4 blob@0.0.4
+50 silly lockFile bdd72ec8-blob blob@
+51 silly lockFile bdd72ec8-blob blob@
+52 error Error: EACCES, mkdir '/Users/ian/.npm/blob/0.0.4'
+52 error  { [Error: EACCES, mkdir '/Users/ian/.npm/blob/0.0.4']
+52 error   errno: 3,
+52 error   code: 'EACCES',
+52 error   path: '/Users/ian/.npm/blob/0.0.4',
+52 error   parent: 'MindsettrCSVCompiler' }
+53 error Please try running this command again as root/Administrator.
+54 error System Darwin 14.5.0
+55 error command "node" "/usr/local/bin/npm" "install" "blob" "--save"
+56 error cwd /Users/ian/Dropbox/CINC-device_all/Science/Results2/Batch0Done
+57 error node -v v0.10.32
+58 error npm -v 1.4.28
+59 error path /Users/ian/.npm/blob/0.0.4
+60 error code EACCES
+61 error errno 3
+62 error stack Error: EACCES, mkdir '/Users/ian/.npm/blob/0.0.4'
+63 verbose exit [ 3, true ]
